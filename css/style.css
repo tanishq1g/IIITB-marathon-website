@@ -34,7 +34,7 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 }
 /*-- banner --*/
 .banner,.banner1{
-	padding:2em 0 0;
+	padding:0 0 0;
 }
 .banner{
 	background:url(../images/banner.jpg) no-repeat 0px 0px;
@@ -45,6 +45,21 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 	-ms-background-size:cover;
 	min-height:770px;
 	position:relative;
+}
+.iiitb_logo{
+		background:url(../images/logo.png) no-repeat 0px 0px;
+		background-size:75px 75px;
+		-webkit-background-size:75px 75px;
+		-moz-background-size:75px 75px;
+		-o-background-size:75px 75px;
+		-ms-background-size:75px 75px;
+		position: relative;
+	  margin-left: 0px;
+		top: 0;
+		left 14%;
+		width: 80px;
+		height: 50px;
+		min-height:75px;
 }
 .banner1{
 	background:url(../images/banner.jpg) no-repeat 0px 0px;
@@ -182,23 +197,23 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 /*-- menu --*/
 .mobile-nav-button {
 	position: fixed;
-    margin:3em 0em 0;
+    margin:0 0 0;
     right: 14%;
     top: 0;
     z-index: 9999;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
-    background: rgba(0, 0, 0, 0.66);
+    width: 100px;
+    height: 75px;
+    background: rgba(0, 255, 0, 0.66);
 }
 
 .mobile-nav-button .mobile-nav-button__line {
-	width: 30px;
+	width: 50px;
     height: 2px;
     background: #fff;
     position: relative;
     transition: 1s ease;
-    margin: .3em auto;
+    margin: 1em auto;
 }
 
 .mobile-nav-button .mobile-nav-button__line:nth-of-type(2) { margin: 0.7em auto; }
@@ -209,7 +224,7 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
-	top: 13px;
+	top: 25px;
 	position: absolute;
 }
 
@@ -223,12 +238,13 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 	-moz-transform: rotate(135deg);
 	-o-transform: rotate(135deg);
 	-ms-transform: rotate(135deg);
-	top: 13px;
+	top: 25px;
 	position: absolute;
 }
 
 .mobile-nav-button .mobile-nav-button__line--1,.mobile-nav-button .mobile-nav-button__line--3 {
-	left:10%;
+	top: 20%;
+	left: 25%;
 }
 
 .mobile-menu {
@@ -1293,7 +1309,7 @@ button.close {
 .hover14 figure::before {
 	position: absolute;
 	top: 0;
-	left: -75%;
+	left: 75%;
 	z-index: 2;
 	display: block;
 	content: '';
@@ -1813,9 +1829,9 @@ h2.typoh2{
 	position:relative;
 }
 .agileits_w3layouts_map_pos{
-	position: absolute;
-    right: -15%;
-    top: 22%;
+	position: relative;
+    left: 50%;
+    top: 7em;
     width: 50%;
     padding: 2em;
     background: #5bb510;
@@ -1833,7 +1849,7 @@ h2.typoh2{
 .agileits_w3layouts_map_pos ul.wthree_contact_info_address li{
 	list-style-type:none;
 	margin-bottom:1em;
-	color:#fff;
+	color:	#fff;
 	font-weight:600;
 }
 .agileits_w3layouts_map_pos ul.wthree_contact_info_address li i{
@@ -2355,6 +2371,7 @@ h2.typoh2{
 	}
 	.agileits_w3layouts_work_grid {
 		float: left;
+		margin-left: 15em;
 		width: 33.33%;
 	}
 	.agile_map	iframe {
@@ -2397,10 +2414,10 @@ h2.typoh2{
 		width: 100%;
 	}
 	.agileits_w3layouts_work_grid {
-		padding-right: 0;
+		padding-right: 10;
 	}
 	.w3layouts_work_grid1 img {
-		margin: 3em 0 0;
+		margin: 3em 1em 0;
 	}
 	.agileits_w3layouts_work_grid1 {
 		padding-top: 1em;	
