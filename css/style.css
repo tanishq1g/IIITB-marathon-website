@@ -1072,7 +1072,7 @@ button.close {
 }
 .agileinfo_banner1_info h2:before, .agileinfo_banner1_info h2:after {
     content: '';
-    background: #95f347;
+    background: #01a2ffef;
     height: 2px;
     position: absolute;
 }
@@ -1083,6 +1083,7 @@ button.close {
     background: #fff;
 }
 .agileinfo_banner1_info h2:after {
+		color: #fff;
     bottom: -10%;
     right: 0;
     width: 18%;
